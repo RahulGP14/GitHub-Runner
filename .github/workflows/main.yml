@@ -1,6 +1,11 @@
 name: Share data between jobs
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
 
 jobs:
   job_1:
