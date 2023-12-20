@@ -1,4 +1,4 @@
-name: Scale test
+name: Scale test 2
 
 on:
   workflow_dispatch:
