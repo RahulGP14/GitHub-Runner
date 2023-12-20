@@ -84,7 +84,7 @@ jobs:
 
   job_6:
     name: Display results
-    needs: job_6
+    needs: job_5
     runs-on: actions_runner_dev
     steps:
       - name: Download math result for job 2
